@@ -1,0 +1,74 @@
+p.formato1{
+   color:red;
+   text-align:center;
+   text-decoration:underline;
+}
+p.formato2{
+   text-transform:uppercase;
+   letter-spacing:10px;
+   line-height:90px;
+}
+p.formato3{
+    word-spacing:10px;
+	text-shadow:1px 1px blue;
+}
+p.formato4{
+   font-family: courier,"Times New Roman";
+   font-style: italic;
+   font-size: xx-large;
+   font-weight: 900;
+}
+p.formato5{
+	color:gray;
+	text-align:center;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:xx-smal;
+	font-family:courier,"Calibri";
+}
+p.formato6{
+	color:pink;
+	text-align:left;
+	text-decoration:overline;
+	text-transform:lowercase;
+	letter-spacing:2px;
+	font-size:x-smal;
+	font-family: courier,"Impact";
+}
+p.formato7{
+	color:green;
+	text-align:right;
+	text-decoration:line-through;
+	text-transform:capitalize;
+	letter-spacing:3px;
+	font-size:smal;
+	font-family: courier,"Futura";
+}
+p.formato8{
+	color:blue;
+	text-align:justify;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	font-size:xx-large;
+	font-family: courier,"Lucida Console";
+}
+p.formato9{
+	color:black;
+	text-align:right;
+	text-decoration:overline;
+	text-transform:lowercase;
+	letter-spacing:5px;
+	font-size:x-large;
+	font-family: courier,"Consolas";
+}
+p.formato10{
+	color:purple;
+	text-align:left;
+	text-decoration:line-through;
+	text-transform:capitalize;
+	letter-spacing:6px;
+	font-size:large;
+	font-family: courier,"Comic Sans MS";
+}

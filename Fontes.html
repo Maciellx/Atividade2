@@ -1,0 +1,213 @@
+/* Resetando margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e7dff, #3a4bf4);
+    color: #fff;
+    line-height: 1.6;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/* Contêiner principal */
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 40px 0;
+    border-bottom: 2px solid #444;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Seções */
+section {
+    padding: 80px 0;
+    transition: all 0.3s ease;
+}
+
+section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Efeito de Parallax */
+#sobre {
+    background-image: url('https://via.placeholder.com/1800x800?text=Gaming+Background');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* Seção de jogos */
+#jogos .jogo {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#jogos .jogo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#jogos .jogo h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+#jogos .jogo p {
+    color: #ccc;
+    margin-top: 10px;
+}
+
+#jogos .jogo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+#jogos .jogo img:hover {
+    transform: scale(1.1);
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+form input, form textarea {
+    width: 60%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #444;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    outline: none;
+}
+
+form button {
+    width: 30%;
+    padding: 15px;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e55d4a;
+    transform: translateY(-3px);
+}
+
+/* Rodapé */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 2px solid #444;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social-icon {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
