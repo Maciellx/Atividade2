@@ -1,0 +1,18 @@
+@keyframes aula {
+    0% {transform: translate(0px,0px);}
+    20% {transform: translate(200px,0px);}
+    40% {transform: translate(400px,0px);}
+    60% {transform: translate(600px,0px);}
+    80% {transform: translate(800px,0px);}
+    100% {transform: translate(1000px,0px);}
+    }
+    button {
+    background-color: red;
+    animation-name: aula;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:2s;
+    width: 100px;
+    height: 100px;
+    }

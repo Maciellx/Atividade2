@@ -1,0 +1,43 @@
+/* Definições gerais */
+body {
+    background-color: lightblue; /* Cor de fundo */
+    color: black;               /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte geral */
+    margin: 0;
+    padding: 0;
+}
+/* Estilo do cabeçalho */
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Estilo do rodapé */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilo do título principal */
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+/* Estilo do parágrafo */
+p {
+    font-size: 16px;
+}
+/* Estilo das imagens e vídeos */
+img {
+    display: block;
+    margin: 20px auto;
+}
+video {
+    display: block;
+    margin: 20px auto;
+}

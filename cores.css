@@ -1,0 +1,6 @@
+#testeNome{ background-color:red; }
+#testeRGB{ background-color:rgb(255,0,0);} 
+#testeRGBA{ background-color:rgba(255,0,0,5); }
+#testeHex{ background-color:#ff0000; }
+#testeHSL{ background-color:hsl(0,100%,50%); }
+#testeHSLA{ background-color:hsla(0, 100%, 50%, 0.849); }
